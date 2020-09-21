@@ -39,45 +39,6 @@ header {
   display: block;
 }
 
-@media screen and (max-width:767px) {
-  .container {
-    width: 90%;
-    /* padding: 0 5%; */
-  }
-
-  header {
-    height: 50px;
-  }
-
-  .logo {
-    height: 50px!important;
-    float: none;
-  }
-
-  .menu-box {
-    float: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-right: 5%;
-    margin-top: 5px;
-    width: 40px;
-    height: 40px;
-    border: 1px solid #FAFAFA;
-  }
-
-  .list-bar {
-    display: block;
-    width: 25px;
-    height: 2px;
-    margin: 5px auto;
-    background-color: #FAFAFA;
-  }
-
-  nav {
-    display: none;
-  }
-}
-
 .logo {
   height: 70px;
   float: left;
@@ -124,20 +85,6 @@ ul {
 
 .mv-text {
   font-size: 20px;
-}
-
-@media screen and (max-width:767px) {
-  #mv {
-    padding: 0 5%;
-  }
-
-  .mv-title {
-    font-size: 40px;
-  }
-
-  .mv-text {
-    font-size: 18px;
-  }
 }
 
 /* ここからポートフォリオ */
@@ -215,42 +162,6 @@ ul {
   background-image: url(img/webcamp-mother.png);
 }
 
-@media screen and (max-width:767px) {
-  #portfolio {
-    padding: 0 5%;
-  }
-
-  .production-group {
-    width: 300px;
-  }
-
-  .production {
-    float: none;
-  }
-
-  .bg-1 {
-    margin-right: 0;
-  }
-
-  .bg-2 {
-    margin-right: 0;
-  }
-
-  .bg-4 {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .bg-5 {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .bg-6 {
-    margin-bottom: 10px;
-  }
-}
-
 /* ここからfeature */
 
 .strength-group {
@@ -258,21 +169,6 @@ ul {
   padding-top: 30px;
   padding-bottom: 90px;
   margin: 0 auto;
-}
-
-@media screen and (max-width:767px) {
-  .strength-group {
-    width: 320px;
-  }
-
-  .strength {
-    float: none;
-    margin-top: 10px;
-  }
-
-  .strength:first-child {
-    margin-top: 0;
-  }
 }
 
 .strength {
@@ -335,30 +231,6 @@ ul {
   margin-top: 0;
 }
 
-@media screen and (max-width:767px) {
-  #profile {
-    padding: 0 5%;
-  }
-
-  .profile-group {
-    text-align: center;
-  }
-
-  .left-content {
-    width: 100%!important;
-    float: none!important;
-  }
-
-  .right-content {
-    width: 100%!important;
-    float: none!important;
-  }
-
-  .myname {
-    margin-top: 20px;
-  }
-}
-
 /* ここからコンタクト */
 
 .contact-group {
@@ -391,7 +263,153 @@ ul {
   font-size: 50px;
 }
 
+/* ここからフッター */
+
+footer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #EC715F;
+}
+
+.footer-text {
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
 @media screen and (max-width:767px) {
+  .container {
+    width: 90%;
+    /* padding: 0 5%; */
+  }
+
+  /* ヘッダー */
+
+  header {
+    height: 50px;
+  }
+
+  .logo {
+    height: 50px!important;
+    float: none;
+  }
+
+  .menu-box {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5%;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FAFAFA;
+  }
+
+  .list-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+  }
+
+  nav {
+    display: none;
+  }
+
+  /* mv */
+
+  #mv {
+    padding: 0 5%;
+    background-image: url(img/code.png);
+  }
+
+  .mv-title {
+    font-size: 40px;
+  }
+
+  .mv-text {
+    font-size: 18px;
+  }
+
+  /* ポートフォリオ */
+
+  #portfolio {
+    padding: 0 5%;
+  }
+
+  .production-group {
+    width: 300px;
+  }
+
+  .production {
+    float: none;
+  }
+
+  .bg-1 {
+    margin-right: 0;
+  }
+
+  .bg-2 {
+    margin-right: 0;
+  }
+
+  .bg-4 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .bg-5 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .bg-6 {
+    margin-bottom: 10px;
+  }
+
+  /* feature */
+
+  .strength-group {
+    width: 320px;
+  }
+
+  .strength {
+    float: none;
+    margin-top: 10px;
+  }
+
+  .strength:first-child {
+    margin-top: 0;
+  }
+
+  /* profile */
+
+  #profile {
+    padding: 0 5%;
+  }
+
+  .profile-group {
+    text-align: center;
+  }
+
+  .left-content {
+    width: 100%!important;
+    float: none!important;
+  }
+
+  .right-content {
+    width: 100%!important;
+    float: none!important;
+  }
+
+  .myname {
+    margin-top: 20px;
+  }
+
+  /* contact */
+
   #contact {
     padding: 0 5%;
   }
@@ -418,19 +436,4 @@ ul {
   .fa-twitter {
     padding-right: 8px;
   }
-}
-
-/* ここからフッター */
-
-footer {
-  width: 100%;
-  height: 60px;
-  text-align: center;
-  line-height: 60px;
-  background-color: #EC715F;
-}
-
-.footer-text {
-  color: #FAFAFA;
-  font-size: 16px;
 }
